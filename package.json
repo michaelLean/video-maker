@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/michaelLean/video-maker/issues"
   },
-  "homepage": "https://github.com/michaelLean/video-maker#readme"
+  "homepage": "https://github.com/michaelLean/video-maker#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
