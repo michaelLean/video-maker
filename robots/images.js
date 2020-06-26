@@ -1,7 +1,7 @@
 const googleapis = require('googleapis').google
 const customSearch = googleapis.customsearch('v1')
 const imagedownloader = require('image-downloader')
-const googleSearchCredentials = require('../credentials/google-search')
+const googleSearchCredentials = require('../credentials/google-search.json')
 const state = require('./state')
 
 async function robot() {

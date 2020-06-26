@@ -4,7 +4,8 @@
   "description": "A robot to automate video creation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "googleapis": "^45.0.0",
     "image-downloader": "^3.5.0",
     "readline-sync": "^1.4.10",
+    "rss-parser": "^3.8.0",
     "sbd": "^1.0.16",
     "watson-developer-cloud": "^4.0.1"
   }
