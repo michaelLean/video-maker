@@ -68,8 +68,7 @@ async function robot() {
         content.sentences = content.sentences.slice(0, content.maximumSentences)
     }
 
-    async function fetchKeywordsOfAllSentences(content) {
-        state.save(content);
+    async function fetchKeywordsOfAllSentences(content) {        
         for (const sentence of content.sentences) {
             sentence.keywords = await fetchWatsonAndReturn(sentence.text);
         }
